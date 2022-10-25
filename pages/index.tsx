@@ -5,7 +5,7 @@ import { useQuery } from "react-query";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
-  const [page, setPage] = useState<string | string[] | undefined | Number>(1);
+  const [page, setPage] = useState<number | undefined>(1);
 
   const router = useRouter();
 
@@ -20,11 +20,9 @@ const Home: NextPage = () => {
     }
   );
 
-  console.log(data);
-
   function handlePaginationChange(
     e: any,
-    value: SetStateAction<string | string[] | undefined | Number>
+    value: SetStateAction<number | undefined>
   ) {
     setPage(value);
   }
