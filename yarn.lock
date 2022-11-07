@@ -1624,6 +1624,11 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"heroicons@^2.0.13":
+  "integrity" "sha512-INL+CaS5eJ8+kkXc6kz+i/4m6AWYESGpyorDIZDPH281vZWjV/W6coGmXVZdvyYVLIbPx0id4fPbWvCj//MW5A=="
+  "resolved" "https://registry.npmjs.org/heroicons/-/heroicons-2.0.13.tgz"
+  "version" "2.0.13"
+
 "hoist-non-react-statics@^3.3.1":
   "integrity" "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw=="
   "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"

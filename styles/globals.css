@@ -2,21 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    max-width: 1300px;
-    width: 100%;
-    margin: auto;
+@layer base {
+    body {
+        @apply bg-[#141414];
+    }
+    header {
+        @apply fixed top-0 z-50 flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6
+    }
 }
 
-article {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 0.5em;
-    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+@layer components {
+    .headerLink {
+        @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition duration-[.4s] hover:text-[#b3b3b3];
+    }
 }
